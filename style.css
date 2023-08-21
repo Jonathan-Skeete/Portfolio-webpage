@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#my-name {
+  margin-top: 60px;
+  text-align: center;
+}
+
+#profile-picture-container {
+  width: 100;
+  
+}
+
+#profile-picture {
+  width: 200px;
+  border-radius: 50%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(41, 41, 41);
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar {
+  margin: 0 10px;
+}
+
+.navbar a[href] {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-section {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+#about-me p {
+  font-size: 20px;
+}
